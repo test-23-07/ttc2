@@ -1,21 +1,19 @@
-/* timetable.css */
-
-/* Hintergrundfarbe der Tabelle ändern */
+/* Ändern Sie die Hintergrundfarbe der Tabelle auf Rot */
 table {
-  background-color: rgb(255, 0, 0); /* Red background color (rgb(255,0,0)) */
+  background-color: rgb(255, 0, 0);
 }
 
-/* Textfarbe der Zellen anpassen */
-table td {
-  color: rgb(0, 128, 0); /* Green text color (rgb(0,128,0)) */
+/* Ändern Sie die Textfarbe der Tabellenzellen auf Grün */
+td {
+  color: rgb(0, 128, 0);
 }
 
-/* Einen Rahmen zur Tabelle hinzufügen */
+/* Fügen Sie einen festen Rahmen zur Tabelle hinzu */
 table {
-  border: 1px solid black; /* 1px schwarzer Rahmen (solid) */
+  border: 2px solid black;
 }
 
-/* Textausrichtung in den Zellen anpassen (zur Mitte) */
-table td {
+/* Zentrieren Sie den Text in den Tabellenzellen */
+td {
   text-align: center;
 }

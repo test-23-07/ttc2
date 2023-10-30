@@ -7,7 +7,7 @@
         "specs": { "title": "Styling the Timetable with CSS" },
         "name": "Style the Timetable with CSS. Add a stylesheet with the timetable.css and a a link in the html file to it",
         "feedback": "Please add CSS styles to make your timetable visually appealing.",
-        "file": "timetable.css",
+        "file": "timetable.html",
         "javascript": "(function() { return document.querySelector('link[rel=\"stylesheet\"][type=\"text/css\"][href=\"timetable.css\"]') !== null ? 'true' : 'false'; })()",
         "output": "true",
         "comparison": "exact",

@@ -1,27 +1,24 @@
-# Status
-[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml)
+<img src="timetable.png" alt="Aufgabe: Styling des timetables" width="300"/>
 
-# Einführung
-![Aufgabe: Styling des timetables](timetable.png)
-
+---
+# Aufgabe
 Aufgabe: Styling des timetables
+* 55 Punkte
+* 45 Minuten (Viel Erfolg!)
 
-maximale Punktzahl: 55
+---
+### Styling the Timetable with CSS (15 Punkte)
+#### Style the Timetable with CSS. Add a stylesheet with the timetable.css and a a link in the html file to it
 
-Zeitfenster: 45 Minuten (Viel Erfolg!)
+### Change Background Color to red (rgb(255,0,0)) (10 Punkte)
+#### Change Background Color
 
-# Styling the Timetable with CSS (15 Punkte)
-## Style the Timetable with CSS. Add a stylesheet with the timetable.css and a a link in the html file to it
+### Adjust Text Color to green (rgb(0,128,0)) (10 Punkte)
+#### Adjust Text Color
 
-# Change Background Color to red (rgb(255,0,0)) (10 Punkte)
-## Change Background Color
+### Add a (solid) Border (10 Punkte)
+#### Add a Border
 
-# Adjust Text Color to green (rgb(0,128,0)) (10 Punkte)
-## Adjust Text Color
-
-# Add a (solid) Border (10 Punkte)
-## Add a Border
-
-# Center Text Alignment (10 Punkte)
-## Adjust Text Alignment
+### Center Text Alignment (10 Punkte)
+#### Adjust Text Alignment
 

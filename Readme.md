@@ -2,6 +2,8 @@
 
 ---
 # Aufgabe
+[![GitHub Classroom Workflow](https://github.com/test-23-07/ttc2/actions/workflows/classroom.yml/badge.svg)](https://github.com/test-23-07/ttc2/actions/workflows/classroom.yml) 
+
 Aufgabe: Styling des timetables
 * 55 Punkte
 * 45 Minuten (Viel Erfolg!)

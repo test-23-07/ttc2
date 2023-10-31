@@ -43,7 +43,7 @@ if __name__ == "__main__":
         introduction = ""
         if repo != None or repo != False:
             statusURL = f"https://github.com/{repo}/actions/workflows/classroom.yml"
-            introduction = f"[![GitHub Classroom Workflow]({statusURL}/badge.svg)]({statusURL})  " # FIXME: Der Link stimmt nicht mehr so ganz ...
+            introduction = f"[![GitHub Classroom Workflow]({statusURL}/badge.svg)]({statusURL}) \n\n" # FIXME: Der Link stimmt nicht mehr so ganz ...
 
         introduction += data.get("introduction")
         total_points = 0

@@ -18,7 +18,7 @@ jobs:
       run: |
         IS_SETUP=$(jq .repo .github/classroom/autograding.json)
         
-        if [ "$IS_SETUP" = "NONE" ]; then
+        if [ "$IS_SETUP" = "false" ]; then
           # Update badges in README.md or other necessary content
           # sed -i "s|PLACEHOLDER_URL|https://some-ci-service.com/status/${{ github.repository }}.svg|g" README.md
 

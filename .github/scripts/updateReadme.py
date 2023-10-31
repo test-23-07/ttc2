@@ -42,7 +42,7 @@ if __name__ == "__main__":
         repo = data.get("repo")
         introduction = ""
         if repo != None or repo != False:
-            statusURL = f"https://github.com/{repo}/actions/workflows/classroom.yml/badge.svg"
+            statusURL = f"https://github.com/{repo}/actions/workflows/classroom.yml"
             introduction = f"[![GitHub Classroom Workflow]({statusURL}/badge.svg)]({statusURL})"
 
         introduction += data.get("introduction")

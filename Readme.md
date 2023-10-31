@@ -1,8 +1,8 @@
-<img src="timetable.png" alt="Aufgabe: Styling des timetables" width="300"/>
+<img src="timetable.png" alt="[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg/badge.svg)](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg)Aufgabe: Styling des timetables" width="300"/>
 
 ---
 # Aufgabe
-Aufgabe: Styling des timetables
+[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg/badge.svg)](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg)Aufgabe: Styling des timetables
 * 55 Punkte
 * 45 Minuten (Viel Erfolg!)
 

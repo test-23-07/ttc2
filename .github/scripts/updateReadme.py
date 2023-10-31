@@ -39,9 +39,9 @@ if __name__ == "__main__":
         data = json.load(autograding_file)
     
     with open(readme, 'w', encoding="utf-8") as readme_file:
-        repo = data.get("repo-name")
+        repo = data.get("repo")
         introduction = ""
-        if repo != None:
+        if repo != None or repo != False:
             statusURL = f"https://github.com/{repo}/actions/workflows/classroom.yml/badge.svg"
             introduction = f"[![GitHub Classroom Workflow]({statusURL}/badge.svg)]({statusURL})"
 

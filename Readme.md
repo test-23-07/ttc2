@@ -1,6 +1,4 @@
-<img src="timetable.png" alt="[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml) 
-
-Aufgabe: Styling des timetables" width="300"/>
+<img src="timetable.png" alt="Aufgabe: Styling des timetables" width="300"/>
 
 ---
 # Aufgabe

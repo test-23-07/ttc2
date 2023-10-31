@@ -16,7 +16,7 @@ jobs:
 
     - name: Update content if needed
       run: |
-        IS_SETUP=$(jq .isSetup autograding.json)
+        IS_SETUP=$(jq .isSetup .github/classroom/autograding.json)
         
         if [ "$IS_SETUP" = "false" ]; then
           # Update badges in README.md or other necessary content
@@ -28,7 +28,7 @@ jobs:
           # Commit and push changes
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md autograding.json
+          git add README.md .github/classroom/autograding.json
           git commit -m "Automatic setup"
           git push
         fi

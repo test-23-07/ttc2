@@ -1,4 +1,4 @@
-{   "repo": "NONE", 
+{   "repo": false, 
     "introduction": "Aufgabe: Styling des timetables",
     "logo_url": "timetable.png",
     "timeframe": "45 Minuten (Viel Erfolg!)",

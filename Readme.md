@@ -1,5 +1,9 @@
-![Aufgabe: Styling des timetables](timetable.png)
+# Status
+[![GitHub Classroom Workflow](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml/badge.svg)](https://github.com/GittyBitch/test-timetable-css/actions/workflows/classroom.yml)
+
 # Einführung
+![Aufgabe: Styling des timetables](timetable.png)
+
 Aufgabe: Styling des timetables
 
 maximale Punktzahl: 55

@@ -18,7 +18,7 @@
         "name": "Change Background Color",
         "feedback": "Change the background color of the table to a color of your choice.",
         "file": "timetable.html",
-        "javascript": "(function() { var table = document.querySelector('table'); var bgColor = window.getComputedStyle(table).getPropertyValue('background-color'); return bgColor /*=== 'rgb(255, 0, 0)' ? 'true' : 'false'*/; })()",
+        "javascript": "(function() { var table = document.querySelector('table'); var bgColor = window.getComputedStyle(table).getPropertyValue('background-color'); return bgColor === 'rgb(255, 0, 0)' ? 'true' : 'false'; })()",
         "output": "true",
         "comparison": "exact",
         "points": 10

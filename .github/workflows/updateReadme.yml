@@ -16,14 +16,14 @@ jobs:
 
     - name: Update content if needed
       run: |
-        IS_SETUP=$(jq .isSetup .github/classroom/autograding.json)
+        IS_SETUP=$(jq .repo .github/classroom/autograding.json)
         
-        if [ "$IS_SETUP" = "false" ]; then
+        if [ "$IS_SETUP" = "NONE" ]; then
           # Update badges in README.md or other necessary content
-          sed -i "s|PLACEHOLDER_URL|https://some-ci-service.com/status/${{ github.repository }}.svg|g" README.md
+          # sed -i "s|PLACEHOLDER_URL|https://some-ci-service.com/status/${{ github.repository }}.svg|g" README.md
 
           # Update autograding.json
-          jq '.isSetup = true' autograding.json > tmp.json && mv tmp.json autograding.json
+          jq '.repo = {{ github.repository }}' .github/classroom/autograding.json > tmp.json && mv tmp.json .github/classroom/autograding.json
 
           # Commit and push changes
           git config --local user.email "action@github.com"
